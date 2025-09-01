@@ -1,0 +1,39 @@
+{
+  "name": "xillen-network-scanner",
+  "version": "1.0.0",
+  "description": "Advanced network reconnaissance and vulnerability scanner",
+  "main": "scanner.js",
+  "scripts": {
+    "start": "node scanner.js",
+    "dev": "nodemon scanner.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "network",
+    "scanner",
+    "security",
+    "pentesting",
+    "reconnaissance"
+  ],
+  "author": "Xillen Security Team",
+  "license": "MIT",
+  "dependencies": {
+    "net": "^1.0.2",
+    "dns": "^0.2.2",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1",
+    "table": "^6.8.1",
+    "fs-extra": "^11.1.1",
+    "node-nmap": "^4.0.0",
+    "ping": "^0.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
